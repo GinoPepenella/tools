@@ -13,6 +13,9 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
+#Install epel release for RHEL9
+sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+
 # 2) Install basic certificate management tools (nss-tools, OpenSSL) and utilities
 echo "[+] Installing certificate tools and dependencies..."
 dnf install -y nss-tools openssl wget unzip
