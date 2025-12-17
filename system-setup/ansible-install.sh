@@ -58,5 +58,5 @@ EOF
 
 echo
 echo "✔ Setup complete!"
-echo "→ Populate /etc/ansible/inventory/ent_hosts with your FQDNs under [ENT1], [ENT2], etc."
+echo "→ Populate /etc/ansible/inventory/ent_hosts with your FQDNs under [EXAMPLE_ENV], [EXAMPLE_ENV2], etc."
 

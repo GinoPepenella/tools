@@ -86,7 +86,7 @@ sudo ./ansible-install.sh
 
 **Post-installation:**
 - Populate `/etc/ansible/inventory/ent_hosts` with your hosts
-- Organize hosts into groups like [ENT1], [ENT2], etc.
+- Organize hosts into groups like [EXAMPLE_ENV], [EXAMPLE_ENV2], etc.
 
 ---
 

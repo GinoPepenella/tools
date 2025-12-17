@@ -22,10 +22,10 @@ banner "Starting IdM Registration"; log "Log: $LOGFILE"
 
 # 1) COLLECT INPUT
 banner "Collecting user input"
-read -rp "🖥️  FQDN for VM hostname (e.g. vm01.example.mil): " FQDN
+read -rp "🖥️  FQDN for VM hostname (e.g. vm01.example.com): " FQDN
 [[ -n "$FQDN" ]] || { echo "[FATAL] FQDN required."; exit 1; }
 
-read -rp "🌐 IdM realm (e.g. EXAMPLE.MIL): " REALM
+read -rp "🌐 IdM realm (e.g. example.com): " REALM
 REALM=${REALM^^}
 [[ -n "$REALM" ]] || { echo "[FATAL] Realm required."; exit 1; }
 

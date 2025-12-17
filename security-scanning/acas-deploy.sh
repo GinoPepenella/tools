@@ -29,7 +29,7 @@ banner "Starting ACAS Deployment"; log "Log: $LOGFILE"
 
 # 1) COLLECT INPUT
 banner "Collecting user input"
-read -rp "Enter scanner IP (e.g., 10.0.0.10): " SCANNER_IP; validate_ip "$SCANNER_IP"
+read -rp "Enter scanner IP (e.g., 192.0.2.10): " SCANNER_IP; validate_ip "$SCANNER_IP"
 read -rp "Enter Satellite server IP: " SAT_SERVER_IP; validate_ip "$SAT_SERVER_IP"
 read -rp "Enter IdM server IP: " IDM_SERVER_IP; validate_ip "$IDM_SERVER_IP"
 

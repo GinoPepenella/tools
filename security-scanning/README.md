@@ -103,7 +103,7 @@ Interactive wrapper for running Ansible-based STIG scans using the Evaluate-STIG
 ```
 
 **Interactive prompts:**
-- Inventory group or host(s) (e.g., "ENT1" or "host1.mil,host2.mil")
+- Inventory group or host(s) (e.g., "EXAMPLE_ENV" or "host1.example.com,host2.example.com")
 - SSH username
 - SSH password
 

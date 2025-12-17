@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")"
 
 echo
-read -rp "Inventory group or host(s) to scan (e.g. ENT1 or idm1.ent1.pcte.mil,idm2.ent1.pcte.mil)
+read -rp "Inventory group or host(s) to scan (e.g. EXAMPLE_ENV or idm1.EXAMPLE_ENV.example.com,idm2.EXAMPLE_ENV.example.com)
 : " LIMIT
 # remove all spaces in case they did "idm1.com, idm2.com"
 LIMIT="${LIMIT//[[:space:]]/}"

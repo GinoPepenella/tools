@@ -53,7 +53,7 @@ TMPDIR=$(mktemp -d)
 echo "[+] Downloading DoD PKI CA bundle..."
 pushd "$TMPDIR" >/dev/null
 
-DOD_ZIP_URL="https://dl.dod.cyber.mil/wp-content/uploads/pki-pke/zip/unclass-certificates_pkcs7_DoD.zip"
+DOD_ZIP_URL="https://dl.example.com/wp-content/uploads/pki-pke/zip/unclass-certificates_pkcs7_DoD.zip"
 wget -O dod_certs.zip "$DOD_ZIP_URL"
 
 echo "[+] Unzipping DoD CA bundle..."
